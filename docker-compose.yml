@@ -6,8 +6,6 @@ services:
     command: gunicorn -b 0.0.0.0:8000 --reload --access-logfile - "app:app"
     environment:
       PYTHONUNBUFFERED: 1
-    volumes:
-      - ./app:/app
     ports:
       - '8000:8000'
 

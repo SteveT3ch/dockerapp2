@@ -5,6 +5,6 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-#COPY app /app
+COPY app /app
 USER admin
 CMD gunicorn -b 0.0.0.0:8000 "app:app"
