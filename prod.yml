@@ -4,8 +4,7 @@ services:
     extends:
       file: base.yml
       service: dockerapp
-    build:
-      context: .
+    image: stevet3ch/dockerapp2
 
   redis:
     extends:
