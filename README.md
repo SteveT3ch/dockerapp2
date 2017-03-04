@@ -1,5 +1,6 @@
 Demo Project
 ============
+![Build Status](https://circleci.com/gh/SteveT3ch/dockerapp2.svg?style=shield&circle-token=7b4e6d5a21bbe95e06b109bca9f5896ca6975516)  
 
 ![Docker Compose](docker_logo.png?raw=true"Docker Compose Logo demo")
 
@@ -32,8 +33,6 @@ Installation and docs
 
 Contributing
 -----------------------
-![Build Status](https://circleci.com/gh/SteveT3ch/dockerapp2.svg?style=shield&circle-token=7b4e6d5a21bbe95e06b109bca9f5896ca6975516)  
-
 Help is alway welcome - contact developer  
 
 Releasing
